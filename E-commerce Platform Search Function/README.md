@@ -1,4 +1,4 @@
-E-commerce Product Search
+🛍️E-COMMERCE PRODUCT SEARCH
 
 This project focuses on developing a simple yet efficient product search feature for an e-commerce system using Java. It compares Linear Search and Binary Search to evaluate which is better suited for various scenarios in real-world applications.
 
