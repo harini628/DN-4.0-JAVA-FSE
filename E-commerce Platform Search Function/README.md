@@ -26,15 +26,15 @@ Big O notation gives an estimate of how well an algorithm scales when more data 
 
 🔍 SEARCH CASE COMPARISION
 ----------------------------
-_____________________________________________________________
+_________________________________________________________________
 | Scenario	       |  Linear Search	      | Binary Search   |
-_____________________________________________________________
+_________________________________________________________________
 | Best Case	O(1)   | first element O(1)   | middle element  |
+ 
+| Average Case	       |   O(n)                | O(log n)       |
 
-| Average Case	   |  O(n)                | O(log n)        |
-
-| Worst Case	     |  O(n)	              |  O(log n)       |
-_____________________________________________________________
+| Worst Case	       |  O(n)	              |  O(log n)       |
+_________________________________________________________________
 
 ⚠️ NOTE: Binary Search is faster, but it only works when the product list is sorted.
 
