@@ -1,9 +1,9 @@
 🛍️E-COMMERCE PRODUCT SEARCH
-
+-----------------------------
 This project focuses on developing a simple yet efficient product search feature for an e-commerce system using Java. It compares Linear Search and Binary Search to evaluate which is better suited for various scenarios in real-world applications.
 ******************************************************************************************************************************************************************************************************************************
 🎯 PURPOSE OF THE PROJECT
-
+--------------------------
 To implement two popular searching techniques and assess their:
 
 ->Efficiency with increasing data sizes
@@ -15,7 +15,7 @@ To implement two popular searching techniques and assess their:
 ->The core goal is to ensure fast product search performance in an online shopping platform.
 *******************************************************************************************************************************************************************************************************************************
 📖 BIG O NOTATION
-
+------------------
 Big O notation gives an estimate of how well an algorithm scales when more data is introduced. It helps in:
 
 ->Predicting runtime
@@ -25,16 +25,16 @@ Big O notation gives an estimate of how well an algorithm scales when more data 
 ->Understanding worst-case performance
 *******************************************************************************************************************************************************************************************************************************
 🔍 SEARCH CASE COMPARISION
-
--------------------------------------------------------------
+----------------------------
+_____________________________________________________________
 | Scenario	       |  Linear Search	      | Binary Search   |
--------------------------------------------------------------
+_____________________________________________________________
 | Best Case	O(1)   | first element O(1)   | middle element  |
 
 | Average Case	   |  O(n)                | O(log n)        |
 
 | Worst Case	     |  O(n)	              |  O(log n)       |
--------------------------------------------------------------
+_____________________________________________________________
 
 ⚠️ NOTE: Binary Search is faster, but it only works when the product list is sorted.
 *******************************************************************************************************************************************************************************************************************************
