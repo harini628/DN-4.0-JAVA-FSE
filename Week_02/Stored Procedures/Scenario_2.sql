@@ -11,3 +11,6 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('✅ Bonus of ' || bonus_percent || '% applied to ' || dept_name || ' department.');
 END;
 /
+    
+--PL/SQL main
+EXEC UpdateEmployeeBonus('Finance', 10);
