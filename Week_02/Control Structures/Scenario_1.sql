@@ -1,4 +1,5 @@
 --SQL
+
 BEGIN
     FOR cust IN (SELECT c.CustomerID, l.LoanID, l.InterestRate
                  FROM Customers c
